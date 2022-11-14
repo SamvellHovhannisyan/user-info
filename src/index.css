@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.user:hover{
+  cursor: pointer;
+}
+.avatar{
+  height: 200px;
+  width: 200px;
+  background-image: url("https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg");
+  background-size: cover;
+  border:4px solid black;
+}
+.post-cards{
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+.current-post{
+  border: 1px solid;
+  box-shadow: 5px 10px 8px #888888;
+}
+.current-post:hover{
+  cursor: pointer;
+}
+.spinner{
+  height: 700px;
+
+}
