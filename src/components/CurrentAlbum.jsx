@@ -75,9 +75,9 @@ function mapStateToProps(state) {
     }
 }
 
-const mapDispatchToProps = d => ({
-    getUserAlbums: (params) => d(getUserAlbums(params)),
-    getAlbumPhotos: (params) => d(getAlbumPhotos(params))
+const mapDispatchToProps = dispatch => ({
+    getUserAlbums: (params) => dispatch(getUserAlbums(params)),
+    getAlbumPhotos: (params) => dispatch(getAlbumPhotos(params))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(CurrentAlbum)

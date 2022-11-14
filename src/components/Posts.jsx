@@ -60,7 +60,6 @@ function Posts(props) {
                             </MDBTabsContent>
                         </MDBTabsLink>
                     )
-
                 }
             </div>
 
@@ -78,9 +77,9 @@ function mapStateToProps(state) {
     }
 }
 
-const mapDispatchToProps = d => ({
-    getUserPosts: (params) => d(getUserPosts(params)),
-    getPostComments: (params) => d(getPostComments(params)),
+const mapDispatchToProps = dispatch => ({
+    getUserPosts: (params) => dispatch(getUserPosts(params)),
+    getPostComments: (params) => dispatch(getPostComments(params)),
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Posts)

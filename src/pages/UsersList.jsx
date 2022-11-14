@@ -31,7 +31,6 @@ function UsersList(props) {
                     </Card>
                 )
             }
-
         </div>
     )
 }
